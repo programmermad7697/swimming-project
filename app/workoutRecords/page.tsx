@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Button, Box, TextField, Modal } from "@mui/material";
+import { Button, Box, Modal } from "@mui/material";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -20,7 +20,7 @@ const style = {
   flexDirection: "row",
 };
 
-function workoutRecords() {
+function WorkoutRecords() {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -83,4 +83,4 @@ function workoutRecords() {
   );
 }
 
-export default workoutRecords;
+export default WorkoutRecords;
