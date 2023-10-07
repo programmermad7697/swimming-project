@@ -9,7 +9,7 @@ export default function Home() {
         <h1 className="text-lg text-white md:text-xl">
           <span className="text-3xl md:text-4xl font-light">H</span>ello! Here
           you will learn about swimming, how swimming started and its history
-          and its advantages and disadvantages of swimming
+          and its advantages and disadvantages
         </h1>
       </div>
 
